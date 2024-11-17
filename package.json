@@ -1,0 +1,14 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web-ui": "pnpm --filter web-ui",
+    "library": "pnpm --filter @mono/library",
+    "utils": "pnpm --filter @mono/utils"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
