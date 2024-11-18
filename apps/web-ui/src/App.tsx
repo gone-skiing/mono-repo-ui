@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Button } from '@mono/library';
+import  Button  from '@mono/library/src/Button/Button';
 import { addRandomTo } from '@mono/utils';
 
 function App() {
